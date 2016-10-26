@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentUtente"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listaAttivita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:layout_weight= "0.7"/>
+
+        <Button
+            android:id="@+id/bottoneAggiungiAttivita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stringaAggiungiAttivita"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
